@@ -1,0 +1,5 @@
+.sfbg, #top_nav, .s8GCU, #kO001e, .section-omnibox-spacer {
+  background-image:url('chrome-extension://__MSG_@@extension_id__/pattern.png') !important;
+  background-repeat: repeat !important;
+  background-size: 1024px !important;
+}

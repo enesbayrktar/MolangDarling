@@ -1,0 +1,28 @@
+{
+  "name": "Darling",
+  "description": "This extension specially developed for my darling.\nwww.github.com/enesbayrktar/MolangDarling",
+  "version": "1.0.0",
+  "manifest_version": 2,
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "storage"
+  ],
+  "content_scripts": [{
+      "matches": ["https://*.google.com/*"],
+      "css": ["darling.css"]
+  }],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_popup": "darling.html"
+  },
+  "web_accessible_resources": [
+    "*.png",
+    "*.gif"
+  ]
+}
